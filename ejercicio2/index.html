@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Carrito de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🛒 Mi Tienda Online</h1>
+        
+        <div class="productos">
+           
+            <div class="producto">
+                <h3>💻 Laptop Gaming</h3>
+                <div class="precio">$25</div>
+                <button onclick="agregarAlCarrito('Laptop Gaming', 25)">Agregar al carrito</button>
+            </div>
+            
+         
+            <div class="producto">
+                <h3>🖱️ Mouse Inalámbrico</h3>
+                <div class="precio">$15</div>
+                <button onclick="agregarAlCarrito('Mouse Inalámbrico', 15)">Agregar al carrito</button>
+            </div>
+            
+           
+            <div class="producto">
+                <h3>⌨️ Teclado Mecánico</h3>
+                <div class="precio">$20</div>
+                <button onclick="agregarAlCarrito('Teclado Mecánico', 20)">Agregar al carrito</button>
+            </div>
+        </div>
+        
+        <div class="resumen">
+            <h2>📋 Resumen del Carrito</h2>
+            <div class="items">Items totales: <span id="items-totales">0</span></div>
+            <div class="total">Total: $<span id="total-precio">0</span></div>
+            <button class="boton-vaciar" onclick="vaciarCarrito()">Vaciar carrito</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

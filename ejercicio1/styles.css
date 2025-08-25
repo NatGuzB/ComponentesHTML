@@ -1,0 +1,62 @@
+/* Estilos básicos para que se vea bien */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.pregunta {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.opcion {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.votos {
+    font-weight: bold;
+    color: #333;
+}
+
+.total {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #2196F3;
+}

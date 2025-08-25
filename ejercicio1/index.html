@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Encuesta Simple</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🗳️ Encuesta de Intereses</h1>
+        <p class="pregunta">¿Qué tema te interesa más?</p>
+
+       
+        <div class="opcion">
+            <span>🎨 Diseño Web</span>
+            <span class="votos" id="votos-diseno">Votos: 0</span>
+            <button onclick="votar('diseno')">Votar</button>
+        </div>
+
+       
+        <div class="opcion">
+            <span>💻 JavaScript</span>
+            <span class="votos" id="votos-javascript">Votos: 0</span>
+            <button onclick="votar('javascript')">Votar</button>
+        </div>
+
+     
+        <div class="opcion">
+            <span>🗄️ Bases de Datos</span>
+            <span class="votos" id="votos-basesdatos">Votos: 0</span>
+            <button onclick="votar('basesdatos')">Votar</button>
+        </div>
+
+        <div class="total">
+            <strong>Total de votos: <span id="total-votos">0</span></strong>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
